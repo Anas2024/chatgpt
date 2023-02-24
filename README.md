@@ -73,3 +73,9 @@ docker run --rm -v "$PWD":/home/app/file.csv -p 8080:8080 -it chatgpt:latest
 To execute tests, simply go to src/test/java in the project and run as Junit test the class QuestionAnswerControllerTest.java
 ```
 
+## Actuator
+```sh
+Actuator run on port 9000, to acces to actuator endpoints use http://localhost:9000/actuator
+Example:  http://localhost:9000/actuator/health
+```
+
