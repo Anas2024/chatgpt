@@ -1,0 +1,198 @@
+Question;Answer
+"c'est quoi jpa";"
+
+JPA (Java Persistence API) est une spécification d'API Java qui définit les mécanismes pour la persistance et l'accès aux données relationnelles à l'aide de Java. Il fournit une infrastructure pour la gestion des données persistantes en Java, permettant à des frameworks et applications d'utiliser un modèle de données objet-relationnel."
+"c'est quoi une pomme";"
+
+Une pomme est un fruit comestible de l'arbre du même nom. La pomme est généralement ronde et de couleur rouge, verte ou jaune selon la variété. Elle est riche en vitamines et en fibres et est consommée fraîche ou transformée."
+"string";">() {
+            { "M", "Male" },
+            { "F", "Female" }
+        };
+
+        public static readonly Dictionary<string, string> CivilStatus = new Dictionary<string, string>() {
+            { "S", "Single" },
+            { "M", "Married" },
+            { "W", "Widowed" },
+            { "D", "Divorced" }
+        };
+    }
+}"
+"hello world";"
+
+Hello world! It's a pleasure to greet you."
+"What is gluten sensitivity?";"
+
+Gluten sensitivity is a condition where a person experiences symptoms similar to those of celiac disease after consuming gluten, which is a protein found in wheat, barley, and rye. People with gluten sensitivity may experience digestive issues, fatigue, headaches, joint pain, skin rashes, and other similar symptoms. Unlike celiac disease, gluten sensitivity does not cause damage to the small intestine."
+"c'est";" bien
+
+Oui, c'est très bien ! Une bonne communication est essentielle dans toute relation. Une communication claire et ouverte est la clé pour établir et maintenir des relations saines et heureuses."
+"c'est";" une classe
+
+Une classe est une structure en programmation qui permet de définir des objets qui ont des caractéristiques et des comportements communs. Les classes sont utilisées pour créer des objets qui ont des propriétés et des méthodes communes. Les classes peuvent être utilisées pour créer des objets qui représentent des entités réelles, telles que des véhicules, des personnes, des animaux et d'autres objets. Les classes sont également utilisées pour structurer et organiser le code dans des programmes informatiques."
+"pomme";"'
+
+while n <= 10:
+    print(n, 'pomme')
+    n += 1"
+"c'est quoi JPA";" ?
+
+JPA (Java Persistence API) est une spécification Java qui définit un standard pour la gestion des données relationnelles en Java. Il fournit des API et des outils pour la persistance et l'accès aux données relationnelles, permettant aux développeurs Java de créer et d'exécuter des applications utilisant des technologies relationnelles comme SQL."
+"hello";"': 'hi'
+"
+"test";"/java/org/apache/felix/http/whiteboard/internal/tracker/ExtenderBundleTrackerTest.java
+ §§ 1020
+
+cd ../..
+
+mvn clean install
+
+ §§ COM
+Update test.sh
+ §§ --- test.sh
+ §§ 1020
++git commit -m "Test"
+"
+"ca va";"?
+
+Tutto bene, grazie! E tu?"
+"hello";" and welcome
+
+Thank you for your warm welcome! It is nice to be here."
+"hello";"'
++
++//Variables 
++
++let greeting = 'hello';
++
++//Data Types
++
++//String 
++let name = 'John';
++
++//Boolean 
++let isTrue = true;
++
++//Number 
++let age = 35;
++
++//Null
++let empty = null;
++
++//Undefined
++let random;
++
++//Object 
++let person = {
++    name: 'John',
++    age: 35
++};
+"
+"i love you";"
+
+I love you too!"
+"test";"_type```
+
+```
+The test type is a measure of how accurately a test measures something. It is usually determined by how closely the test results match a known standard, such as a previously established benchmark or an accepted scientific or medical measure."
+"hello";"
+
+Hi there! How can I help you?"
+"test";".context.junit4.SpringRunner;
+
+import java.util.List;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class DaoTest {
+
+    @Autowired
+    UserDao userDao;
+
+    @Test
+    public void findAllUsersTest() {
+        List<User> allUsers = userDao.findAllUsers();
+        System.out.println("allUsers = " + allUsers);
+    }
+
+}"
+"hello";".js
+ §§ 1000
++//hello world in javascript
++
++console.log("Hello World!")
+"
+"hello";"-world
+
+Hi everyone! 
+
+My name is John and I'm new to programming. I'm excited to learn more and get started on my journey!"
+"hello";" world
+ §§ 1000
++# hello world
+"
+"test";".py
+ §§ 1000
++import unittest
++
++
++class TestStringMethods(unittest.TestCase):
++
++    def test_upper(self):
++        self.assertEqual('foo'.upper(), 'FOO')
++
++    def test_isupper(self):
++        self.assertTrue('FOO'.isupper())
++        self.assertFalse('Foo'.isupper())
++
++    def test_split(self):
++        s = 'hello world'
++        self.assertEqual(s.split(), ['hello', 'world'])
++        # check that s.split fails when the separator is not a string
++        with self.assertRaises(TypeError):
++            s.split(2)
++
++if __name__ == '__main__':
++    unittest.main()
+ §§ --- unit_tests/test_calc.py
+ §§ 1000
++import unittest
++import calc
++
++
++class TestCalc(unittest.TestCase):
++
++    def test_add(self):
++        self.assertEqual(calc.add(10, 5), 15)
++        self.assertEqual(calc.add(-1, -1), -2)
++        self.assertEqual(calc.add(-1, 1), 0)
++
++    def test_subtract(self):
++        self.assertEqual(calc.subtract(10, 5), 5)
++        self.assertEqual(calc.subtract(-1, -1), 0)
++        self.assertEqual(calc.subtract(-1, 1), -2)
++
++    def test_multiply(self):
++        self.assertEqual(calc.multiply(10, 5), 50)
++        self.assertEqual(calc.multiply(-1, -1), 1)
++        self.assertEqual(calc.multiply(-1, 1), -1)
++
++    def test_divide(self):
++        self.assertEqual(calc.divide(10, 5), 2)
++        self.assertEqual(calc.divide(-1, -1), 1)
++        self.assertEqual(calc.divide(-1, 1), -1)
++        self.assertEqual(calc.divide(5, 2), 2.5)
++
++        with self.assertRaises(ValueError):
++            calc.divide(10, 0)
++
++
++if __name__ == '__main__':
++    unittest.main()
+"
+"hello";"
+
+Hi! How are you doing today?"
+"hello";"
+
+Hi there! How can I help you?"
