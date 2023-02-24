@@ -11,6 +11,6 @@ RUN mvn -f /home/app/pom.xml clean package
 #
 FROM openjdk:20-ea-17-jdk
 RUN mkdir -p /home/app
-COPY --from=build /home/app/target/izicapchatgptproject1-0.0.1-SNAPSHOT.jar /usr/local/lib/izicapchatgptproject1.jar
+COPY --from=build /home/app/target/chat-gpt-app-anas-aitraho.jar /usr/local/lib/izicapchatgptproject1.jar
 EXPOSE 8080
 ENTRYPOINT ["java","-jar","/usr/local/lib/izicapchatgptproject1.jar"]
