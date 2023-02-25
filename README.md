@@ -55,9 +55,9 @@ EXPOSE 8080
 ENTRYPOINT ["java","-jar","/usr/local/lib/chatgpt.jar"]
 
 ```
-## Change Api key 
+## Change ChatGPT Api key 
 Go to src/main/resources/application.properties and modify the property 'apiKey' and enter your key (Example: apiKey=yourApiKey)
-###application.properties
+### application.properties
 ```sh
 # server port
 server.port = 8080
