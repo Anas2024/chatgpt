@@ -1,5 +1,5 @@
 README.md
-## Generate the application
+# Generate the application
 
 
 ## Decisions made :
@@ -53,6 +53,35 @@ FROM openjdk:11-ea-17-jre-slim
 COPY --from=build /home/app/target/chatgpt-0.0.1-SNAPSHOT.jar /usr/local/lib/chatgpt.jar
 EXPOSE 8080
 ENTRYPOINT ["java","-jar","/usr/local/lib/chatgpt.jar"]
+
+```
+## Change Api key 
+Go to src/main/resources/application.properties and modify the property 'apiKey' and enter your key (Example: apiKey=yourApiKey)
+###application.properties
+```sh
+# server port
+server.port = 8080
+
+# chatGpt api key 
+apiKey=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
+
+#api url 
+apiUrl=https://api.openai.com/v1/completions
+
+#api model
+apiModel=text-davinci-003
+
+#path of csv file
+csvPath=/home/app/file.csv
+
+#actuator server port
+management.server.port = 9000
+
+#disable security for endpoints of actuator 
+management.security.enabled = false
+
+#include all endpoints of actuator
+management.endpoints.web.exposure.include=*
 
 ```
 Note
