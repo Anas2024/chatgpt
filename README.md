@@ -27,6 +27,9 @@ Instructions to run the code:
 8. Send a POST request to the /chatgpt endpoint with the following JSON payload: { "question": "What is gluten sensitivity?" }
    The response will contain the answer provided by ChatGPT and the pair Question/answer is stored in file.csv.
 9. If you want to test the application on IDE intellej or eclipse you can remove the block in comment in the main of the class IzicapChatGptProject1Application.java
+   Note: To test the application on IDE intellej or eclipse you must change the path of file.csv in application.properties
+         Just replace the property  =>  csvPath=/home/app/file.csv 
+                                    TO  csvPath=file.csv 
 
 Notes:
 
